@@ -294,7 +294,7 @@ window.snake.scheme = function(settings = {}) {
                     ? do_ 
                   : document.querySelector('#apple').getElementsByClassName('DqMRee tuJOWd')[0].src.includes('lime')
                     ? li_
-                  : document.querySelector('#apple').getElementsByClassName('DqMRee tuJOWd')[0].src.includes('pepper')
+                  : document.querySelector('#apple').getElementsByClassName('DqMRee tuJOWd')[0].src.includes('ballz')
                     ? pe_
                   : eg_;
                 
