@@ -263,6 +263,11 @@ window.snake.scheme = function(settings = {}) {
           ball.width = ball.height = 47;
           ball.className = 'DqMRee SsAred';
         
+          let ballz = new Image();
+          ballz.src = 'https://i.ibb.co/Ltnx524/360-F-249920338-FJINPhp-Jm-H485-L6-Wrknr2a-Tbbv1-X6-LWB-removebg-preview.png';
+          ballz.width = ballz.height = 47;
+          ballz.className = 'DqMRee SsAred';
+        
 
           if(document.querySelector('#apple').childElementCount > 21)
             for(let i = document.querySelector('#apple').childElementCount - 1; i >= 22; i--)
@@ -273,6 +278,7 @@ window.snake.scheme = function(settings = {}) {
 
 
           eval(`var eg_ = new Image(); eg_.src = 'https://i.ibb.co/gm969Fp/unnamed.png';`);
+          eval(`var eg_ = new Image(); eg_.src = 'https://i.ibb.co/Ltnx524/360-F-249920338-FJINPhp-Jm-H485-L6-Wrknr2a-Tbbv1-X6-LWB-removebg-preview.png';`);
           eval(
             code.match(
               /[a-zA-Z0-9_$]{1,8}=function\(a\){return a\.[a-zA-Z0-9_$]{1,8}\.canvas}/
@@ -462,6 +468,7 @@ window.snake.checkers = function() {
     separators:   '#eb1515',
     buttons:      '#eb1515',
     ball:          true,
+    ballz:          true,
   });
 };
 
