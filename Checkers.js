@@ -278,7 +278,7 @@ window.snake.scheme = function(settings = {}) {
 
 
           eval(`var eg_ = new Image(); eg_.src = 'https://i.ibb.co/gm969Fp/unnamed.png';`);
-          eval(`var eg_ = new Image(); eg_.src = 'https://i.ibb.co/Ltnx524/360-F-249920338-FJINPhp-Jm-H485-L6-Wrknr2a-Tbbv1-X6-LWB-removebg-preview.png';`);
+          eval(`var pe_ = new Image(); pe_.src = 'https://i.ibb.co/Ltnx524/360-F-249920338-FJINPhp-Jm-H485-L6-Wrknr2a-Tbbv1-X6-LWB-removebg-preview.png';`);
           eval(
             code.match(
               /[a-zA-Z0-9_$]{1,8}=function\(a\){return a\.[a-zA-Z0-9_$]{1,8}\.canvas}/
